@@ -1,0 +1,35 @@
+{
+  "name": "cross-platform-desktop",
+  "version": "1.0.0",
+  "description": "cross-platform-desktop",
+  "author": "",
+  "repository": "",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.6.1",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "bootstrap": "^3.3.7",
+    "es6-shim": "^0.35.3",
+    "jsonformatter": "^0.6.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.8.11"
+  },
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "start": "electron ."
+  }
+}
