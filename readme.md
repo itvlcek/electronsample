@@ -7,3 +7,5 @@ Source [https://scotch.io/@rui/how-to-build-a-cross-platform-desktop-application
 run core in command line - dotnet run
 
 run electron - npm start
+
+rebuild app - npm build
